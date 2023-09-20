@@ -4,7 +4,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.preprocessing import LabelEncoder
 
 # Load the preprocessed dataset
-data = pd.read_csv(r"C:\Users\91838\Desktop\Online Retail.xlsx")  # Replace with your dataset file path
+data = pd.read_csv(r"C:\Users\91838\Desktop\Online Retail.csv")  # Replace with your dataset file path
 
 # Preprocess the data (encode user and product IDs)
 user_encoder = LabelEncoder()
